@@ -1,8 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../index.php';
-
-class testCalcTest extends PHPUnit_Framework_TestCase
+class testCalc extends \PHPUnit_Framework_TestCase
 {
     public function testAdd()
     {

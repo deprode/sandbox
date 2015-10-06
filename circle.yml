@@ -1,0 +1,14 @@
+machine:
+  timezone:
+    Asia/Tokyo
+  php:
+    version:
+      5.6.5
+
+dependencies:
+  pre:
+    - sudo apt-get update
+
+test:
+  override:
+    - ./vendor/phpunit/phpunit/phpunit

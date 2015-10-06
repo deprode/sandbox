@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "phpunit/phpunit": "4.*",
+        "phpunit/phpunit-selenium": "dev-master"
+    }
+}

@@ -17,7 +17,3 @@ dependencies:
 test:
   override:
     - ./vendor/phpunit/phpunit/phpunit
-
-notify:
-  webhooks:
-    - url: https://hooks.slack.com/services/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

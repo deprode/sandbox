@@ -16,5 +16,4 @@ dependencies:
 
 test:
   override:
-    - ./vendor/phpunit/phpunit/phpunit
     - ./vendor/bin/codecept run

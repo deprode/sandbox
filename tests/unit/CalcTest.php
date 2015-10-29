@@ -1,7 +1,16 @@
 <?php
 
-class testCalc extends \PHPUnit_Framework_TestCase
+class CalcTest extends \PHPUnit_Framework_TestCase
 {
+    protected function setUp()
+    {
+    }
+
+    protected function tearDown()
+    {
+    }
+
+    // tests
     public function testAdd()
     {
         $result = add(1, 2);

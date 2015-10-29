@@ -10,3 +10,7 @@ modules:
         - PhpBrowser:
             url: http://localhost:8000
         - \Helper\Acceptance
+        # - WebDriver:
+        #     url: http://localhost:8000
+        #     browser: firefox
+        #     port: 4444

@@ -2,6 +2,7 @@
     "require": {
         "monolog/monolog": "1.2.*",
         "phpunit/phpunit": "4.*",
-        "phpunit/phpunit-selenium": "dev-master"
+        "phpunit/phpunit-selenium": "dev-master",
+        "codeception/codeception": "*"
     }
 }

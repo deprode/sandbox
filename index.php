@@ -14,5 +14,7 @@ function add($a, $b)
 <body>
     <h1>テストです。</h1>
     <p>1 + 2 = <?php echo add(1, 2); ?></p>
+    <hr>
+    <p>some text</p>
 </body>
 </html>
